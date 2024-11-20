@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Fazer com que as imagens fique na parte de cima do site */
+.img{
+    width: 280px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    height: 500px;
+}
+header{
+    background-color: rgb(123, 84, 0);
+    color: white;
+}
+/*Cabeçalho, parte dos botoes de navegação*/
+header nav li{
+    display: inline;
+}
+/* Links de navegação do cabeçalho */
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
