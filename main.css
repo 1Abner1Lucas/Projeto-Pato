@@ -61,10 +61,6 @@ p {
   margin: 0 15px;
   text-align: justify;
 }
-section .container p {
-  font-size: ;
-}
-
 /* Modifica os elementos ao passar o mouse */
 /* section .container:hover {
   background-color: rgb(123, 84, 0);
